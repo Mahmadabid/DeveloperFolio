@@ -312,6 +312,24 @@ body {
   height: 70%;
 }
 
+#figma_live {
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1.3rem;
+  height: 2.6rem;
+  line-height: 2.6rem;
+  position: relative;
+  padding: .5rem;
+  text-align: center;
+  -webkit-user-select: none;
+  user-select: none;
+  width: 2.6rem;
+  border-radius: 2.6rem;
+  margin: 0px 5px 10px;
+  transition: all 0.2s ease-in 0s;
+  background-color: rgb(0, 0, 0);
+}
+
 /* Images Proportion (877 * 679)*/
 #shoeStore {
   background-image: url("./images/projects/nike.png");
@@ -333,6 +351,12 @@ body {
 
 #todoApp {
   background-image: url("./images/projects/todoApp.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#recipeApp {
+  background-image: url("./images/projects/recipeApp.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -416,8 +440,8 @@ body {
   width: 100%;
   min-height: 100vh;
 }
-
-/* .profile-image {
+/* 
+.profile-image {
   margin: 1rem;
   box-shadow: 6px 6px 10px gray;
   width: 170px;

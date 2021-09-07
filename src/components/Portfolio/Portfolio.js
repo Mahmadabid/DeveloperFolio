@@ -1,6 +1,7 @@
 import React from "react";
 import "./../../index.css";
 import { motion } from "framer-motion";
+import figmaIMG from '../../images/stack/figma.svg'
 
 const boxVariants = {
   hover: {
@@ -239,6 +240,37 @@ const Portfolio = () => {
                   title="live preview"
                   id="live"
                 ></i>
+              </a>
+            </div>
+          </div>
+        </motion.div>
+        {/* // */}
+
+        {/* Project - Figma Recipe App */}
+        <motion.div
+          className="projects"
+          variants={boxVariants}
+          whileHover="hover"
+        >
+          <a
+            rel="noopener noreferrer"
+            target="_blank"
+            href="https://www.figma.com/proto/hrGYcjLvYRZWc2SmDqrHoe/Recipe-App?node-id=1%3A8&scaling=scale-down&page-id=0%3A1&starting-point-node-id=14%3A39/"
+          >
+            <div className="project-images" id="recipeApp"></div>
+          </a>
+
+          <div className="project-links">
+            <div className="text">
+              <h3>Figma Recipe App</h3>
+            </div>
+            <div className="icons">
+              <a
+                rel="noopener noreferrer"
+                href="https://www.figma.com/proto/hrGYcjLvYRZWc2SmDqrHoe/Recipe-App?node-id=1%3A8&scaling=scale-down&page-id=0%3A1&starting-point-node-id=14%3A39/"
+                target="_blank"
+              >
+                <img src={figmaIMG} alt="figma" id="figma_live" />
               </a>
             </div>
           </div>
