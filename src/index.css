@@ -312,15 +312,11 @@ body {
   height: 70%;
 }
 
-#figma_live {
+.figma {
   cursor: pointer;
-  display: inline-block;
-  font-size: 1.3rem;
+  display: flex;
   height: 2.6rem;
   line-height: 2.6rem;
-  position: relative;
-  padding: .5rem;
-  text-align: center;
   -webkit-user-select: none;
   user-select: none;
   width: 2.6rem;
@@ -328,6 +324,13 @@ body {
   margin: 0px 5px 10px;
   transition: all 0.2s ease-in 0s;
   background-color: rgb(0, 0, 0);
+  justify-content: center;
+  align-items: center;
+}
+
+#figma_live {
+  width: auto;
+  height: 1.7rem;
 }
 
 /* Images Proportion (877 * 679)*/
@@ -440,7 +443,7 @@ body {
   width: 100%;
   min-height: 100vh;
 }
-/* 
+
 .profile-image {
   margin: 1rem;
   box-shadow: 6px 6px 10px gray;
@@ -450,7 +453,7 @@ body {
   background-image: url("./images/ahmad.png");
   background-size: cover;
   height: 170px;
-} */
+}
 
 .cards-container {
   display: flex;

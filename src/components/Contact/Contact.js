@@ -1,5 +1,6 @@
 import React from "react";
 import "./../../index.css";
+import fiverrIMG from '../../images/fiverr.svg'
 
 const Contact = () => {
   return (
@@ -80,7 +81,7 @@ const Contact = () => {
             </a> */}
           </div>
         </div>
-        {/* Card 3 - Phone */}
+        {/* Card 3 - Phone 
         <div className="cards">
           <div className="contact-icons">
             <i className="fas fa-phone"></i>
@@ -91,6 +92,28 @@ const Contact = () => {
           <div className="contact-links">
             <span>(+92) 320 7859338 </span>
           </div>
+        </div>*/}
+        {/* Fiverr */}
+        <div className="cards">
+          <a
+            rel="noopener noreferrer"
+            target="_blank"
+            href="https://www.fiverr.com/mahmadabid"
+          >
+            <div className="contact-icons">
+            <img src={fiverrIMG} alt="fiverr" id="figma_live" />
+            </div>
+          </a>
+          <a
+            style={{textDecoration: "none", color: "#27d053", fontWeight: "bold"}}
+            rel="noopener noreferrer"
+            target="_blank"
+            href="https://www.fiverr.com/mahmadabid"
+          >
+            <div className="contact-text">
+              <span>Fiverr Profile</span>
+            </div>
+          </a>
         </div>
       </div>
     </section>
