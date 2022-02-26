@@ -43,7 +43,7 @@ const Portfolio = () => {
               <a
                 rel="noopener noreferrer"
                 target="_blank"
-                href="https://github.com/Mahmedabid/space-x"
+                href="https://github.com/Mahmadabid/space-x"
               >
                 <i className="fab fa-github" title="github repo" id="github">
                   {" "}
@@ -86,7 +86,7 @@ const Portfolio = () => {
               <a
                 rel="noopener noreferrer"
                 target="_blank"
-                href="https://github.com/Mahmedabid/diary-app"
+                href="https://github.com/Mahmadabid/diary-app"
               >
                 <i className="fab fa-github" title="github repo" id="github">
                   {" "}
@@ -131,7 +131,7 @@ const Portfolio = () => {
               <a
                 rel="noopener noreferrer"
                 target="_blank"
-                href="https://github.com/Mahmedabid/shoe_store"
+                href="https://github.com/Mahmadabid/shoe_store"
               >
                 <i className="fab fa-github" title="github repo" id="github">
                   {" "}
@@ -176,7 +176,7 @@ const Portfolio = () => {
               <a
                 rel="noopener noreferrer"
                 target="_blank"
-                href="https://github.com/Mahmedabid/Contentful-Blog"
+                href="https://github.com/Mahmadabid/Contentful-Blog"
               >
                 <i
                   className="fab fa-github"
@@ -222,7 +222,7 @@ const Portfolio = () => {
               <a
                 rel="noopener noreferrer"
                 target="_blank"
-                href="https://github.com/Mahmedabid/todoapp"
+                href="https://github.com/Mahmadabid/todoapp"
               >
                 <i
                   className="fab fa-github"
@@ -282,7 +282,7 @@ const Portfolio = () => {
       <a
         rel="noopener noreferrer"
         target="_blank"
-        href="https://github.com/Mahmedabid/"
+        href="https://github.com/Mahmadabid/"
         className="button-link"
       >
         <button className="button">More Projects</button>
