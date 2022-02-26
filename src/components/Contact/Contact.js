@@ -1,6 +1,7 @@
 import React from "react";
 import "./../../index.css";
 import fiverrIMG from '../../images/fiverr.svg'
+import ContactForm from "./contactForm";
 
 const Contact = () => {
   return (
@@ -9,18 +10,6 @@ const Contact = () => {
       <h1 className="heading">Contact</h1>
 
       <div className="cards-container">
-        {/* Card 1 - Email */}
-        <div className="cards">
-          <div className="contact-icons">
-            <i className="fas fa-envelope"></i>
-          </div>
-          <div className="contact-text">
-            <span>Email</span>
-          </div>
-          <div className="contact-links">
-            <span>theahmed157@gmail.com</span>
-          </div>
-        </div>
 
         {/* Card 2 - Social Media */}
         <div className="cards">
@@ -101,11 +90,11 @@ const Contact = () => {
             href="https://www.fiverr.com/mahmadabid"
           >
             <div className="contact-icons">
-            <img src={fiverrIMG} alt="fiverr" id="figma_live" />
+              <img src={fiverrIMG} alt="fiverr" id="figma_live" />
             </div>
           </a>
           <a
-            style={{textDecoration: "none", color: "#27d053", fontWeight: "bold"}}
+            style={{ textDecoration: "none", color: "#27d053", fontWeight: "bold" }}
             rel="noopener noreferrer"
             target="_blank"
             href="https://www.fiverr.com/mahmadabid"
@@ -116,6 +105,7 @@ const Contact = () => {
           </a>
         </div>
       </div>
+      <ContactForm/>
     </section>
   );
 };

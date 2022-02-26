@@ -586,6 +586,24 @@ body {
   transition: all 0.2s ease-in 0s;
 }
 
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-component {
+  margin-top: 10px !important;
+  min-width: 395px !important;
+}
+
+.form-button {
+  margin-top: 10px !important;
+}
+
 /* Footer */
 .footer-container {
   display: flex;
@@ -787,5 +805,8 @@ body {
   }
   .button {
     font-size: 0.8rem;
+  }
+  .form-component{
+    min-width: 300px !important;
   }
 }
