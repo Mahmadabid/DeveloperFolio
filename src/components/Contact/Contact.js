@@ -1,7 +1,7 @@
 import React from "react";
 import "./../../index.css";
 import fiverrIMG from '../../images/fiverr.svg'
-import ContactForm from "./ContactForm";
+import ContactForm from "./contactForm";
 
 const Contact = () => {
   return (
@@ -105,7 +105,7 @@ const Contact = () => {
           </a>
         </div>
       </div>
-      <ContactForm/>
+      <ContactForm />
     </section>
   );
 };
