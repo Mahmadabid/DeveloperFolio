@@ -15,9 +15,9 @@ const ContactForm = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-console.log(process.env.USER_ID)
+
         setOpen(true)
-            emailjs.sendForm(process.env.SERVICE_ID, process.env.TEMPLATE_ID, forms.current, 'user_JKXH2KMACFGVmf7CWR7X1').then(
+        emailjs.sendForm(process.env.REACT_APP_SERVICE_ID, process.env.REACT_APP_TEMPLATE_ID, forms.current, process.env.REACT_APP_USER_ID).then(
             () => {
                 setAlert(true);
             }
