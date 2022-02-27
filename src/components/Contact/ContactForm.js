@@ -17,7 +17,7 @@ const ContactForm = () => {
         e.preventDefault();
 
         setOpen(true)
-            emailjs.sendForm(process.env.SERVICE_ID, process.env.TEMPLATE_ID, forms.current, process.env.USER_ID).then(
+            emailjs.sendForm(process.env.SERVICE_ID, process.env.TEMPLATE_ID, forms.current, 'user_JKXH2KMACFGVmf7CWR7X1').then(
             () => {
                 setAlert(true);
             }
