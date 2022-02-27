@@ -15,7 +15,7 @@ const ContactForm = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-
+console.log(process.env.USER_ID)
         setOpen(true)
             emailjs.sendForm(process.env.SERVICE_ID, process.env.TEMPLATE_ID, forms.current, 'user_JKXH2KMACFGVmf7CWR7X1').then(
             () => {
