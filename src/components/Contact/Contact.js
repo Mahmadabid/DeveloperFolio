@@ -1,6 +1,6 @@
 import React from "react";
+import fiverrIMG from '../../images/fiverr.svg';
 import "./../../index.css";
-import fiverrIMG from '../../images/fiverr.svg'
 import ContactForm from "./ContactForm";
 
 const Contact = () => {
@@ -24,7 +24,7 @@ const Contact = () => {
             <a
               rel="noopener noreferrer"
               target="_blank"
-              href="https://github.com/Mahmedabid"
+              href="https://github.com/Mahmadabid"
             >
               <i className="fab fa-github" title="github" id="github"></i>
             </a>
@@ -70,18 +70,7 @@ const Contact = () => {
             </a> */}
           </div>
         </div>
-        {/* Card 3 - Phone 
-        <div className="cards">
-          <div className="contact-icons">
-            <i className="fas fa-phone"></i>
-          </div>
-          <div className="contact-text">
-            <span>Phone</span>
-          </div>
-          <div className="contact-links">
-            <span>(+92) 320 7859338 </span>
-          </div>
-        </div>*/}
+
         {/* Fiverr */}
         <div className="cards">
           <a
