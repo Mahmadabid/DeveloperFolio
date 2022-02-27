@@ -1,7 +1,7 @@
 import React from "react";
 import "./../../index.css";
 import fiverrIMG from '../../images/fiverr.svg'
-import ContactForm from "./contactForm";
+import ContactForm from "./ContactForm";
 
 const Contact = () => {
   return (
